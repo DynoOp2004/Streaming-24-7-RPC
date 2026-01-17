@@ -11,7 +11,7 @@ function formatTime() {
   //Credits to himika#0001 and never#0001
   const date = new Date();
   const options = {
-    timeZone: "America/New_York", //https://www.zeitverschiebung.net/en/ and find your city and enter here
+    timeZone: "Asia/Kolkata", //https://www.zeitverschiebung.net/en/ and find your city and enter here
     hour12: true,
     hour: "numeric",
     minute: "numeric",
@@ -26,7 +26,7 @@ client.on("ready", async () => {
   const r = new Discord.RichPresence(client)
     .setApplicationId("1461936040863338678")
     .setType("STREAMING")
-    .setURL("https://www.youtube.com/watch?v=oHg5SJYRHA0") //Must be a youtube video link
+    .setURL("https://www.youtube.com/watch?v=M8vDwlHigJA") //Must be a youtube video link
     .setState("Captivates Me")
     .setName("Is this really love?")
     .setDetails(`Captivates Me [${formatTime()}]`)
@@ -46,13 +46,13 @@ client.on("ready", async () => {
     );
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
+  client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
 
   let prevTime = null;
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Those Eyes [${newTime}]`;
+      const newDetails = `discord.gg/sincity`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
