@@ -24,7 +24,7 @@ client.on("ready", async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence(client)
-    .setApplicationId("1426964594215227456")
+    .setApplicationId("1461936040863338678")
     .setType("STREAMING")
     .setURL("https://www.youtube.com/watch?v=oHg5SJYRHA0") //Must be a youtube video link
     .setState("Captivates Me")
