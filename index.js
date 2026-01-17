@@ -52,7 +52,7 @@ client.on("ready", async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `discord.gg/`;
+      const newDetails = `discord.gg/adoreme`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
