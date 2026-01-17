@@ -29,7 +29,7 @@ client.on("ready", async () => {
     .setURL("https://www.youtube.com/watch?v=M8vDwlHigJA") //Must be a youtube video link
     .setState("Don't Underestimate us !!")
     .setName("Is this really love?")
-    .setDetails(`Captivates Me [${formatTime()}]`)
+    .setDetails(`We are the secrets!?`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
       "https://media.discordapp.net/attachments/1437376805353947139/1461941693594079404/monokuma-discord-logo-512x512.png?ex=696c62cd&is=696b114d&hm=67bdcee5d4129abf62158600ecc8e000d967b4b69c786b909c3ba45eae3544e6&=&format=webp&quality=lossless&width=768&height=768",
