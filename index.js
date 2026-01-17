@@ -32,13 +32,13 @@ client.on("ready", async () => {
     .setDetails(`Captivates Me [${formatTime()}]`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "https://media.discordapp.net/attachments/1430232655802138734/1430232675104329779/image0.png?ex=68f9077a&is=68f7b5fa&hm=b7b4e4f909e06551333361f7f5f923e8e4ce3bf6d2efefa5e6a3d074459e5b49&=&format=webp&quality=lossless",
+      "https://media.discordapp.net/attachments/1437376805353947139/1461941693594079404/monokuma-discord-logo-512x512.png?ex=696c62cd&is=696b114d&hm=67bdcee5d4129abf62158600ecc8e000d967b4b69c786b909c3ba45eae3544e6&=&format=webp&quality=lossless&width=768&height=768",
     ) //You can put links in tenor or discord and etc.
     .setAssetsLargeText("We are the sinners.") //Text when you hover the Large image
     .setAssetsSmallImage(
-      "https://media.discordapp.net/attachments/1430232655802138734/1430232703911071824/heart-beating-heart.png?ex=68f90781&is=68f7b601&hm=e0e6f7e840f4d80bcd0569dae8460785b0d2ba5095e4a177772c1531a50c87a9&=&format=webp&quality=lossless",
+      "https://cdn.discordapp.com/attachments/1437376805353947139/1460775258213847155/1219350987249025045.gif?ex=696c18f9&is=696ac779&hm=0d16a0d4b45a2471f704f86d2224c632811083425f0aed5df0b5c95852417231&",
     ) //You can put links in tenor or discord and etc.
-    .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
+    .setAssetsSmallText("Verified") //Text when you hover the Small image
     .addButton("Portfolio", "https://e-z.bio/developer")
     .addButton(
       "Subscribe",
